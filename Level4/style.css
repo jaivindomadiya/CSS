@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    border: 2x solid tomato;
+    text-align: center;
+}
+#container{
+    height:200px;
+    width: 300px;
+    border-style:solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: tomato;
+}
+#box3{
+    background-color:blue ;
+}
+#box4{
+    background-color: beige;
+}
+#box5{
+    background-color: yellow;
+}
+@media (min-width :300px) and (max-width:500px){
+    #box5{
+        background-color: orangered;
+    }
+}
